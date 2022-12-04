@@ -17,7 +17,7 @@ def englishToFrench():
 def frenchToEnglish():
     textToTranslate = request.args.get('textToTranslate')
     # Write your code here
-     englishtext = translator.french_to_english(textToTranslate)
+    englishtext = translator.french_to_english(textToTranslate)
     return englishtext 
     # return "Translated text to English"
 
